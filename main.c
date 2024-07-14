@@ -39,7 +39,6 @@ public:
     // Pesquisar no banco de dados se o cartão existe
     // Retornar true se o cartão existir, false caso contrário
 
-    // Exemplo de simulação de consulta no banco de dados 
     for (const std::string& cartao : bancoDados) {
       if (cartao == dadosCartao) {
         return true;
@@ -53,7 +52,6 @@ public:
   void adicionarCartao(const std::string& dadosCartao) {
     // Conectar com o banco de dados
     // Adicionar o cartão ao banco de dados
-    // Exemplo de simulação de adição ao banco de dados (substitua por código real)
     bancoDados.push_back(dadosCartao);
   }
 };
